@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container bg-[#3B4664] w-full h-screen gap-6 flex flex-col justify-center items-center">
+        <h1 class="text-white">calc</h1>
+        <div class=" screen bg-black text-zinc-100 text-4xl text-right h-[10vh] w-[20vw] rounded-lg">0</div>
+        <div class=" key-container bg-[#252d44] h-[45vh] w-[20vw]  rounded-lg flex-col">
+            <div class="key-rows flex flex-row justify-evenly  items-center pt-4 ">
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg  px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    7</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    8</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    9</div>
+                <div
+                    class="deletebtn cursor-pointer hover:bg-blue-200 bg-[#3B4664] text-center font-bold text-lg text-white  px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    DEL</div>
+            </div>
+            <div class="key-rows flex flex-row justify-evenly  items-center pt-4 ">
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    4</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    5</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    6</div>
+                <div
+                    class="operator cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    +</div>
+            </div>
+            <div class="key-rows flex flex-row justify-evenly  items-center pt-4 ">
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    1</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    2</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    3</div>
+                <div
+                    class="operator cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    -</div>
+            </div>
+            <div class="key-rows flex flex-row justify-evenly  items-center pt-4 ">
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    .</div>
+                <div
+                    class="numberbtn cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    0</div>
+                <div
+                    class="operator cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    /</div>
+                <div
+                    class="operator cursor-pointer hover:bg-blue-200 bg-zinc-100 font-bold text-lg px-8 py-4 rounded-md w-[4vw] h-[6vh]">
+                    *</div>
+            </div>
+            <div class="key-rows flex flex-row justify-evenly  items-center pt-4 ">
+                <div
+                    class="resetbtn cursor-pointer hover:bg-zinc-400 bg-[#798aba] text-center font-bold text-lg px-8 py-4 rounded-md w-[8.9vw] h-[6vh]">
+                    Reset
+                </div>
+                <div
+                    class="equalbtn cursor-pointer hover:bg-red-200 bg-red-500 text-center font-bold text-lg px-8 py-4 rounded-md w-[8.9vw] h-[6vh]">
+                    =
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
